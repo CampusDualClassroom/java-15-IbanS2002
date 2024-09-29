@@ -39,6 +39,7 @@ public abstract class Merchandise {
 	}
 
 	public abstract Object getSpecificData();
+	public abstract Object printSpecificData();
 
 	public String getName() {
 		return name;
